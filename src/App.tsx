@@ -10,7 +10,7 @@ const INDEX_KEY = "learnItAnyway.index";
 const ROTATION_KEY = "learnItAnyway.rotation";
 const SOUND_KEY = "learnItAnyway.sound";
 const ROTATION_MINUTES_KEY = "learnItAnyway.rotationMinutes";
-const ROTATION_MINUTE_OPTIONS = [10, 15, 20, 30];
+const ROTATION_MINUTE_OPTIONS = [5, 10, 15, 20, 30];
 
 function loadInitialWords(): Word[] {
   try {
